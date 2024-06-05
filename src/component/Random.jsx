@@ -10,7 +10,7 @@ function Random() {
     let quotes=[]
 
     async function loadQuotes(){
-        const response = await fetch("https://type.fit/api/quotes");
+        const response = await fetch("https://zenquotes.io/api/random");
         quotes = await response.json();
     }
 
