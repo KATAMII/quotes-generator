@@ -39,6 +39,9 @@
 .icons{
     display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
 
 }
 .icons svg{
